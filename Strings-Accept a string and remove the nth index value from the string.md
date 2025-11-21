@@ -19,7 +19,7 @@ To write a Python program that accepts a string and removes the character at a s
 def remove(string, n):
     a = ""
     for i in range(len(string)):
-        if i != n:
+        if i != n:  
             a = a + string[i]
     return a
 
